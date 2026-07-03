@@ -13,9 +13,9 @@ jobs:
       - name: Update Naukri profile
         uses: Prateek-Wayne/naukri-resume-action@main
         with:
-          username: ${{ secrets.NAUKRI_USERNAME }}
-          password: ${{ secrets.NAUKRI_PASSWORD }}
-          profile_id: ${{ secrets.NAUKRI_PROFILE_ID }}
+          USERNAME: ${{ secrets.NAUKRI_USERNAME }}
+          PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}
+          PROFILE_ID: ${{ secrets.NAUKRI_PROFILE_ID }}
           resume_path: |-
             ./resumes/resume1.pdf
           profile_summary: 'Your profile summary here ' # Optional: min 50 chars
